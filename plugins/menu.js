@@ -313,12 +313,12 @@ const sections = [
 
 let tek = `Hai Kak @${m.sender.split`@`[0]}
 
-Saya ALT BOT, BOT Whatsapp Yang Akan Membantu Kamu Untuk Mempersulit Sesuatu Seperti Membuat Sticker Dan Lainnya, Ada Butuh Info Dariku?`
+Saya ALT BOT, Bot Whatsapp Yang Akan Membantu Kamu Untuk Mempersulit Sesuatu Seperti Membuat Sticker Dan Lainnya, Ada Butuh Info Dariku?`
 const listMessage = {
   text: tek,
-  footer: ``,
+  footer: `*Silahkan Klik Tombol dibawah ini atau ketik : .? all`,
   mentions: await conn.parseMention(tek),
-  title: `Note : Jika Kamu Menggunakan WA Lama/Belum Di Update, Dan Button Tidak Kelihatan, Langsung Aja ketik *.allmenu*`,
+  title: ``,
   buttonText: `KLIK DISINI ⎙`, 
   sections
 }
