@@ -200,7 +200,7 @@ if (teks == 'menbalas') tags = {
       let c1 = global.cmenuh
       let c2 = global.cmenub
       let c3 = global.cmenuf
-      let c4 = global.cmenua
+      let c4 = global.note
       
       // LOGO L P
       let lprem = global.lopr
