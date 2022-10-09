@@ -279,7 +279,7 @@ const sections = [
           ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
-            {title: `${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+            {title: `${pmenus} All`, rowId: ".allmenu", description: "Menampilkan Semua command BOT"},
             {title: `${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
         {title: `${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
         {title: `${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -317,7 +317,7 @@ Saya ALT BOT, BOT Whatsapp Yang Akan Membantu Kamu Untuk Mempersulit Sesuatu Sep
 const listMessage = {
   text: tek,
   footer: ``,
-  after: `%c4`,
+  after: `Note : Jika Kamu Menggunakan WA Lama/Belum Di Update, Dan Button Tidak Kelihatan, Langsung Aja ketik *.allmenu*`,
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `KLIK DISINI ⎙`, 
