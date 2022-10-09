@@ -316,7 +316,7 @@ let tek = `Hai Kak @${m.sender.split`@`[0]}
 Saya ALT BOT, Bot Whatsapp Yang Akan Membantu Kamu Untuk Mempersulit Sesuatu Seperti Membuat Sticker Dan Lainnya, Ada Butuh Info Dariku?`
 const listMessage = {
   text: tek,
-  footer: `*Silahkan Klik Tombol dibawah ini atau ketik : .? all`,
+  footer: `*Silahkan Klik Tombol dibawah ini atau ketik : *.? all*`,
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `KLIK DISINI ⎙`, 
