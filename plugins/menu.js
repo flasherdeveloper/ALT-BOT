@@ -317,9 +317,8 @@ Saya ALT BOT, BOT Whatsapp Yang Akan Membantu Kamu Untuk Mempersulit Sesuatu Sep
 const listMessage = {
   text: tek,
   footer: ``,
-  after: `Note : Jika Kamu Menggunakan WA Lama/Belum Di Update, Dan Button Tidak Kelihatan, Langsung Aja ketik *.allmenu*`,
   mentions: await conn.parseMention(tek),
-  title: ``,
+  title: `Note : Jika Kamu Menggunakan WA Lama/Belum Di Update, Dan Button Tidak Kelihatan, Langsung Aja ketik *.allmenu*`,
   buttonText: `KLIK DISINI ⎙`, 
   sections
 }
