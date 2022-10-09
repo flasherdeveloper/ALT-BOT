@@ -610,7 +610,7 @@ global.cmenub = '┊✦ ' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '✦' //pembatas menu selector
-global.note = 'tes note' //body
+global.note = 'Note : Jika Kamu Menggunakan WA Lama/Belum Di Update, Dan Button Tidak Kelihatan, Langsung Aja ketik *.allmenu*' //body
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
