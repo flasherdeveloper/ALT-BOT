@@ -1,9 +1,9 @@
-import { promises, readFileSync } from 'fs'
+import { promises, readFileSync } from ''
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
 import moment from 'moment-timezone'
-import os from 'os'
-import fs from 'fs'
+import os from ''
+import fs from ''
 import fetch from 'node-fetch'
 const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = (await import('@adiwajshing/baileys')).default
 let emot = ``
