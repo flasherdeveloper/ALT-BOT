@@ -8,7 +8,7 @@ import fetch from 'node-fetch'
 const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = (await import('@adiwajshing/baileys')).default
 let emot = ``
 	
-const defaultMenu = {
+const listMessage = {
   before: `
   Hallo *%name* !
   *${ucapan()}* kak 
@@ -189,7 +189,7 @@ if (teks == 'menbalas') tags = {
   }
   try {
   	// DEFAULT MENU
-    //  let dash = global.dashmenu
+      let dash = global.dashmenu
   	let m1 = global.dmenut
       let m2 = global.dmenub
       let m3 = global.dmenuf
