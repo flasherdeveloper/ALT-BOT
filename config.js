@@ -131,19 +131,19 @@ global.packname = 'Create By'
 global.author = '                「 ALT BOT V.1  」'
 
 /*Fake*/
-global.fsizedoc = '1'.repeat(10)
-global.fpagedoc = '1'.repeat(10)
+global.fsizedoc = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'.repeat(10)
+global.fpagedoc = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'.repeat(10)
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'Main Thumbnail' //Main Thumbnail
-global.imagebot = 'imagebot'
-global.giflogo = 'giflogo'
-global.thumbs = ['thumbs']
-global.fla = 'fla'
+global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
+global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.giflogo = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
+global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
 global.thumbnailUrl = [
-'thumbnailUrl']
+'https://i.ibb.co/XZrK6yQ/transformers.jpg']
 
 global.flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
