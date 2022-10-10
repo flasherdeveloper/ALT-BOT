@@ -189,7 +189,7 @@ if (teks == 'menbalas') tags = {
   }
   try {
   	// DEFAULT MENU
-      let dash = global.dashmenu
+    //  let dash = global.dashmenu
   	let m1 = global.dmenut
       let m2 = global.dmenub
       let m3 = global.dmenuf
