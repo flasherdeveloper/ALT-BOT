@@ -8,34 +8,8 @@ import fetch from 'node-fetch'
 const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = (await import('@adiwajshing/baileys')).default
 let emot = ``
 	
-const listMessage = {
-  before: `
-  Hallo *%name* !
-  *${ucapan()}* kak 
-  
-  Sekarang Pukul *%time*
-  Hari *%week %weton*
-  Tanggal Masehi *%date*
-  Tanggal Hijriah *%dateIslamic*
-  
-╭─────═[ INFO USER ]═─────⋆
-│╭───────────────···
-┴│︎ *Nama :* %name
-  │︎ *Tag :* %tag
-  │︎ *Premium :* %prems
-  │︎ *Limit :* %limit
-  │︎ *Saldo :* %money
-  │︎ *Level :* %level [ %xp4levelup Xp For Levelup]
-  │︎ *XP :* %exp / %maxexp
-┬│︎ *Total XP:* %totalexp
-│╰────────────────···
-╰──────────═┅═──────────
-
-⃝▣──「 *INFO CMD* 」───⬣
-│ *_Premium_* = Untuk user Premium
-│ *_Limit_* = Harus memakai Limit
-▣────────────⬣
-%readmore
+const defaultMenu = {
+  before: `ini default  menu
 `.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: `  %cmd %isPremium %islimit`,
