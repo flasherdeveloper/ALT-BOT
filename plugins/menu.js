@@ -6,7 +6,7 @@ import os from 'os'
 import fs from 'fs'
 import fetch from 'node-fetch'
 const { makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = (await import('@adiwajshing/baileys')).default
-//let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
+let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
 	
 const defaultMenu = {
   before: `ini balasan menu all defaultmenu
@@ -419,37 +419,37 @@ const listMessage = {
     
     //FAKE TROLI
 
-    const ftrol = {
+   // const ftrol = {
 
-    key : {
+   // key : {
 
-    remoteJid: 'status@broadcast',
+   // remoteJid: 'status@broadcast',
 
-    participant : '0@s.whatsapp.net'
+   // participant : '0@s.whatsapp.net'
 
-    },
+   // },
 
-    message: {
+   // message: {
 
-    orderMessage: {
+  //  orderMessage: {
 
-    itemCount : 2022,
+  //  itemCount : 2022,
 
-    status: 1,
+  //  status: 1,
 
-    surface : 1,
+  //  surface : 1,
 
-    message: `Hai Kak ${name}!`, 
+  //  message: `Hai Kak ${name}!`, 
 
-    orderTitle: `▮Menu ▸`,
+//orderTitle: `▮Menu ▸`,
 
-    thumbnail: await (await fetch(fla + 'Menu')).buffer(), //Gambarnye
+  //  thumbnail: await (await fetch(fla + 'Menu')).buffer(), //Gambarnye
 
-    sellerJid: '0@s.whatsapp.net' 
+  //  sellerJid: '0@s.whatsapp.net' 
 
-    }
+  //  }
 
-    }
+  //  }
 
     }
     
