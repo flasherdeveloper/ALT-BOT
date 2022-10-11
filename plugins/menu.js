@@ -18,7 +18,7 @@ const defaultMenu = {
   after: `%c4 %me`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
-  let res = JSON.parse(readFileSync('./thumbnail.jpg'))
+//  let res = JSON.parse(readFileSync('./thumbnail.jpg'))
      let em = res.emoji
 	let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 	let whmods = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
